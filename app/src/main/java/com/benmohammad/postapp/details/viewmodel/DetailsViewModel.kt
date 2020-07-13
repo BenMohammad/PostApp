@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import com.benmohammad.core.extensions.toLiveData
 import com.benmohammad.core.networking.Outcome
+import com.benmohammad.postapp.commons.PostDH
 import com.benmohammad.postapp.commons.data.local.Comment
 import com.benmohammad.postapp.details.model.DetailsDataContract
 import io.reactivex.disposables.CompositeDisposable
@@ -26,6 +27,6 @@ class DetailsViewModel(private val repo: DetailsDataContract.Repository, private
     override fun onCleared() {
         super.onCleared()
         compositeDisposable.clear()
-        //PostH.destroyDetailsComponent()
+        PostDH.destroyDetailsComponent()
     }
 }
