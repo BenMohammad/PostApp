@@ -2,4 +2,7 @@
     <string name="app_name">PostApp</string>
     <string name="user_image">User Image</string>
     <string name="know_more">Know More...</string>
+    <string name="need_internet_posts">No connection</string>
+    <string name="failed_posts_try_again">Try Again....</string>
+    <string name="no_comments_error">No Comments...</string>
 </resources>
